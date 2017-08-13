@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlfredNobelDialog_AdditionalInformation" xml:space="preserve">
+    <value>I 1895 testamenterte Alfred Nobel det meste av sin formue til et fond hvor inntektene skulle nyttes til å dele ut priser til dem som hvert år hadde gjort menneskeheten den største nytte – Nobelprisene. I sitt testamente etterlot Nobel ingen forklaring på hvorfor fredsprisen, i motsetning til de andre Nobelprisene, skulle utdeles av en norsk komité.
+Ifølge The Oxford International Encyclopedia of Peace, er fredsprisen den mest prestisjefulle utmerkelsen i verden.</value>
+  </data>
+  <data name="AlfredNobelDialog_InformationText" xml:space="preserve">
+    <value>Nobel var tredje sønn av Immanuel Nobel (1801–1872) og familien bodde i Stockholm til Alfred var åtte år gammel. Da flyttet familien til St. Petersburg hvor faren hadde startet en våpenfabrikk noen år tidligere.
+Han gikk ikke på skole, men fikk privatundervisning av gode lærere og behersket snart fire fremmedspråk (russisk, engelsk, tysk og fransk) og viste store evner i kjemi.
+I 1863 flyttet han tilbake til Sverige og begynte å arbeide som kjemiker ved farens verksted i Helenborg. Han videreutviklet sprengstoffet glyserolnitrat (nitroglyserin) og startet industriell produksjon av dette i 1864. I 1867 fikk han patent på en type sprengstoff han ga navnet dynamitt, etter å ha funnet opp dette året før. Denne oppfinnelsen fikk stor betydning for anleggsvirksomhet i mange land og la grunnlaget for Nobels store formue. Den opprinnelige form for dynamitt ble etter hvert erstattet av gelatin-dynamitten, som var sikrere å behandle. Også i denne utvikling spilte Nobel en viktig rolle.</value>
+  </data>
+  <data name="AlfredNobelDialog_WantMore_Choice1" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="AlfredNobelDialog_WantMore_Choice2" xml:space="preserve">
+    <value>Nei</value>
+  </data>
+  <data name="AlfredNobelDialog_WantMore_Text" xml:space="preserve">
+    <value>Vil du vite enda mer om Alfred Nobel?</value>
+  </data>
+  <data name="PeacePrizeWinnersDialog_AskForUserData_Choice1" xml:space="preserve">
+    <value>Ja, det kan jeg!</value>
+  </data>
+  <data name="PeacePrizeWinnersDialog_AskForUserData_Choice2" xml:space="preserve">
+    <value>Nei, takk!</value>
+  </data>
+  <data name="PeacePrizeWinnersDialog_AskForUserData_Text" xml:space="preserve">
+    <value>Vi vil gjerne vite mer om deg, kan du svare på et par spørsmål?</value>
+  </data>
+  <data name="RootDialog_Welcome_Choice1" xml:space="preserve">
+    <value>Vite mer om Alfred Nobel</value>
+  </data>
+  <data name="RootDialog_Welcome_Choice2" xml:space="preserve">
+    <value>Vite mer om vinnere av Nobels fredspris</value>
+  </data>
+  <data name="RootDialog_Welcome_Error" xml:space="preserve">
+    <value>Hmm...det der forsto jeg ikke helt.</value>
+  </data>
+  <data name="RootDialog_Welcome_QuestionText" xml:space="preserve">
+    <value>Hva vil du gjøre først?</value>
+  </data>
+  <data name="RootDialog_Welcome_QuestionTitle" xml:space="preserve">
+    <value>Hei!</value>
+  </data>
+</root>
