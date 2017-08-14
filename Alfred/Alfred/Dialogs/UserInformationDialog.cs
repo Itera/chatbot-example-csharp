@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO.Ports;
 using System.Threading.Tasks;
 using Alfred.Models;
 using Alfred.Properties;

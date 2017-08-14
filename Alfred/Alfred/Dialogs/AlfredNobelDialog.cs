@@ -32,7 +32,7 @@ namespace Alfred.Dialogs
                 Resources.AlfredNobelDialog_WantMore_Choice2
             };
 
-            reply.AddHeroCard(Resources.AlfredNobelDialog_WantMore_Text, "", options);
+            reply.AddHeroCard("", Resources.AlfredNobelDialog_WantMore_Text, options);
 
             await context.PostAsync(reply);
 

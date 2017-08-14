@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Alfred.Models;
 using Alfred.Properties;
 using Alfred.Services;
+using Alfred.Services.Models;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
 using BotAssets.Extentions;
@@ -28,7 +29,7 @@ namespace Alfred.Dialogs
                 Resources.PeacePrizeWinnersDialog_AskForUserData_Choice2
             };
 
-            reply.AddHeroCard(Resources.PeacePrizeWinnersDialog_AskForUserData_Text, "", options);
+            reply.AddHeroCard("", Resources.PeacePrizeWinnersDialog_AskForUserData_Text, options);
 
             await context.PostAsync(reply);
 
@@ -70,9 +71,16 @@ namespace Alfred.Dialogs
             var user = await result;
 
             var prizeByYear = new PeacePrizeWinnerService().GetPrizeByYear(user.BirthYear);
-            await context.PostAsync($"Visste du at {prizeByYear.Laureates.FirstOrDefault()?.Surname} vant nobels fredspris det året du ble født?");
+            var fullName = GetFullName(prizeByYear);
+            await context.PostAsync($"Visste du at {fullName} vant nobels fredspris det aaret du ble foedt?");
 
             context.Done(user);
+        }
+
+        private string GetFullName(Prize prizeByYear)
+        {
+            var firstWinner = prizeByYear.Laureates.FirstOrDefault();
+            return firstWinner != null ? $"{firstWinner.Firstname} {firstWinner.Surname}" : "";
         }
     }
 }
