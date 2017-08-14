@@ -179,5 +179,32 @@ namespace Alfred.Properties {
                 return ResourceManager.GetString("RootDialog_Welcome_QuestionTitle", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hei {0}, hvilket år ble du født?.
+        /// </summary>
+        internal static string UserInformationDialog_BirthYearQuestion {
+            get {
+                return ResourceManager.GetString("UserInformationDialog_BirthYearQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hvilket land kommer du fra?.
+        /// </summary>
+        internal static string UserInformationDialog_CountryQuestion {
+            get {
+                return ResourceManager.GetString("UserInformationDialog_CountryQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hva heter du?.
+        /// </summary>
+        internal static string UserInformationDialog_NameQuestion {
+            get {
+                return ResourceManager.GetString("UserInformationDialog_NameQuestion", resourceCulture);
+            }
+        }
     }
 }

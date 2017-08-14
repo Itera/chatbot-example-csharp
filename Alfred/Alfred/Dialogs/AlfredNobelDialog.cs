@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Linq;
 using System.Threading.Tasks;
 using Alfred.Models;
 using Alfred.Properties;
-using Alfred.Services;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
 using BotAssets.Extentions;

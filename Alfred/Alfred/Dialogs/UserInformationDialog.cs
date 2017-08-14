@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using System.Web;
 using Alfred.Models;
+using Alfred.Properties;
 using Microsoft.Bot.Builder.Dialogs;
-using Microsoft.Bot.Connector;
 
 namespace Alfred.Dialogs
 {
@@ -22,7 +19,7 @@ namespace Alfred.Dialogs
 
         public Task InitialPrompt(IDialogContext context)
         {
-            PromptDialog.Text(context, AfterNameQuestion, "Hva heter du?");
+            PromptDialog.Text(context, AfterNameQuestion, Resources.UserInformationDialog_NameQuestion);
             return Task.CompletedTask;
         }
 
@@ -31,7 +28,7 @@ namespace Alfred.Dialogs
             var name = await result;
             _user.Name = name;
 
-            PromptDialog.Number(context, AfterBirthYearQuestion, $"Hei {name}, hvilket år ble du født?");
+            PromptDialog.Number(context, AfterBirthYearQuestion, string.Format(Resources.UserInformationDialog_BirthYearQuestion, name));
         }
 
         public async Task AfterBirthYearQuestion(IDialogContext context, IAwaitable<long> result)
@@ -40,7 +37,7 @@ namespace Alfred.Dialogs
 
             _user.BirthYear = birthYear;
 
-            PromptDialog.Text(context, AfterCountryQuestion, "Hvilket land kommer du fra?");
+            PromptDialog.Text(context, AfterCountryQuestion, Resources.UserInformationDialog_CountryQuestion);
         }
 
         public async Task AfterCountryQuestion(IDialogContext context, IAwaitable<string> result)

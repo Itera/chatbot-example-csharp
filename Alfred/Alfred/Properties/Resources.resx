@@ -159,4 +159,13 @@ I 1863 flyttet han tilbake til Sverige og begynte å arbeide som kjemiker ved fa
   <data name="RootDialog_Welcome_QuestionTitle" xml:space="preserve">
     <value>Hei!</value>
   </data>
+  <data name="UserInformationDialog_BirthYearQuestion" xml:space="preserve">
+    <value>Hei {0}, hvilket år ble du født?</value>
+  </data>
+  <data name="UserInformationDialog_CountryQuestion" xml:space="preserve">
+    <value>Hvilket land kommer du fra?</value>
+  </data>
+  <data name="UserInformationDialog_NameQuestion" xml:space="preserve">
+    <value>Hva heter du?</value>
+  </data>
 </root>
