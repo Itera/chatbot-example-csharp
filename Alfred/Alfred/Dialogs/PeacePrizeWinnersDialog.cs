@@ -72,7 +72,7 @@ namespace Alfred.Dialogs
 
             var prizeByYear = new PeacePrizeWinnerService().GetPrizeByYear(user.BirthYear);
             var fullName = GetFullName(prizeByYear);
-            await context.PostAsync($"Visste du at {fullName} vant nobels fredspris det aaret du ble foedt?");
+            await context.PostAsync(string.Format(Resources.PeacePrizeWinnersDialog_Result, fullName));
 
             context.Done(user);
         }

@@ -144,6 +144,9 @@ I 1863 flyttet han tilbake til Sverige og begynte å arbeide som kjemiker ved fa
   <data name="PeacePrizeWinnersDialog_AskForUserData_Text" xml:space="preserve">
     <value>Vi vil gjerne vite mer om deg, kan du svare på et par spørsmål?</value>
   </data>
+  <data name="PeacePrizeWinnersDialog_Result" xml:space="preserve">
+    <value>Visste du at {0} vant nobels fredspris det året du ble født?</value>
+  </data>
   <data name="RootDialog_Welcome_Choice1" xml:space="preserve">
     <value>Vite mer om Alfred Nobel</value>
   </data>

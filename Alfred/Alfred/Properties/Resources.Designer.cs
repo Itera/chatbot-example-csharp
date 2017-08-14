@@ -136,6 +136,15 @@ namespace Alfred.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Visste du at {0} vant nobels fredspris det året du ble født?.
+        /// </summary>
+        internal static string PeacePrizeWinnersDialog_Result {
+            get {
+                return ResourceManager.GetString("PeacePrizeWinnersDialog_Result", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Vite mer om Alfred Nobel.
         /// </summary>
         internal static string RootDialog_Welcome_Choice1 {
